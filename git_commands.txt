@@ -1,0 +1,86 @@
+
+GIT COMMANDS USED IN THE ASSIGNMENT
+
+1. git init
+Initializes a new Git repository.
+
+2. git branch -M main
+Renames the current branch to main.
+
+3. git status
+Displays the current repository status.
+
+4. git add index.html about.html
+Stages the HTML files for committing.
+
+5. git commit -m "Initial project structure"
+Creates the initial commit.
+
+6. git add index.html
+Stages changes made to index.html.
+
+7. git commit -m "Update home page content"
+Records the updated home page.
+
+8. git branch feature
+Creates a new branch named feature.
+
+9. git switch feature
+Switches to the feature branch.
+
+10. git add about.html
+Stages changes to about.html.
+
+11. git commit -m "Add feature description"
+Commits the feature branch changes.
+
+12. git switch main
+Switches back to the main branch.
+
+13. git merge feature
+Merges feature into main.
+
+14. git log --oneline --graph --decorate --all
+Displays commit history and branch information.
+
+15. git check-ignore debug.log temp/
+Verifies ignored files and folders.
+
+16. git add .gitignore
+Stages the .gitignore file.
+
+17. git commit -m "Add Git ignore rules"
+Commits the ignore configuration.
+
+18. git add temporary.txt
+Stages the temporary file.
+
+19. git commit -m "Add temporary file for revert demonstration"
+Creates an additional commit.
+
+20. git revert --no-edit HEAD
+Reverses the latest commit while preserving history.
+
+21. Test-Path temporary.txt
+Checks whether the temporary file exists.
+
+22. git remote add origin URL
+Connects the local repository to GitHub.
+
+23. git remote -v
+Displays configured remote repositories.
+
+24. git push -u origin main
+Pushes the main branch to GitHub.
+
+25. git push -u origin feature
+Pushes the feature branch to GitHub.
+
+26. git add git_commands.txt
+Stages the command documentation.
+
+27. git commit -m "Document Git commands used in assignment"
+Commits the command documentation.
+
+28. git push
+Pushes the latest commit to GitHub.
